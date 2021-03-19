@@ -5,7 +5,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-
+<!--Using constraint layout because I found it easier than LinearLayout to achieve the relative positioning-->
+<!--    of the views-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/login_layout"
         android:layout_width="match_parent"

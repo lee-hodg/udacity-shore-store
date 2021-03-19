@@ -8,8 +8,6 @@ import com.udacity.shoestore.models.Shoe
 
 class SharedShoeViewModel : ViewModel() {
 
-
-    //private var shoeList = mutableListOf<Shoe>()
     private val _shoeListLiveData: MutableLiveData<MutableList<Shoe>> = MutableLiveData()
     val shoeListLiveData: LiveData<MutableList<Shoe>>
         get() = _shoeListLiveData

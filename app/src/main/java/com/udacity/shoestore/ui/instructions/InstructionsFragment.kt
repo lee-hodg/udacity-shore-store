@@ -14,6 +14,7 @@ import com.udacity.shoestore.ui.welcome.WelcomeFragmentDirections
 
 class InstructionsFragment : Fragment() {
 
+    // https://medium.com/androiddevelopers/use-view-binding-to-replace-findviewbyid-c83942471fc
     private lateinit var binding: InstructionsFragmentBinding
 
 
